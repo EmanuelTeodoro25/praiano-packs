@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Praiano Packs</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="inicio">
+
+    <div class="container">
+
+        <h1>PRAIANO PACKS</h1>
+
+        <p>
+            Descubra viagens incríveis com
+            ótimo custo benefício.
+        </p>
+
+        <button onclick="irLogin()">
+            FAZER LOGIN
+        </button>
+
+    </div>
+
+    <script>
+
+    if(localStorage.getItem("logado") == "sim"){
+
+        window.location.href = "pacotes.html";
+
+    }
+
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
